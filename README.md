@@ -46,11 +46,19 @@ $k_\omega = 0.05$ and $k_A = 0.5$
 
 $\delta_\omega = 0.05$ rad/s and $\delta_A = 0.02$ rad.
 
+The saturation functions are
+
+$\sigma_\omega(x) = 1.4 + 2.5/(1+\exp(-1.5(x-5.25)))$
+
+$\sigma_A(x) = 0.9 + 1.5/(1+\exp(-(x-3.25)))$
+
 ## Fig 13 - Adaptive Control with a Perturbation
 
 $k_\omega = 0.02$ and $k_A = 0.1$
 
 $\delta_\omega = 0.1$ rad/s and $\delta_A = 0.02$ rad.
+
+The saturation functions are as for figs 11-12.
 
 ## Figs 15-16 - Phase Control
 
