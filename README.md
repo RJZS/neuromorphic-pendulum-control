@@ -10,7 +10,7 @@ $g_{us}^+ = 2.36$
 
 We set $g_s^-$ to 1.05 for the lower burst size, and to 1.8 for the higher burst size.
 
-## Fig 4 - Network Simulation
+## Fig 3 - Network Simulation
 
 $g_s^- = 1.05$ and $g_{us}^+ = 1.75$
 
@@ -28,19 +28,10 @@ Bottom: $g_s^- = 1.80$ and $g_{us}^+ = 3.52$
 
 Initial conditions: $q(0) = 0$, $\dot{q}(0) = 0$ for large oscillations and $q(0) = 1, \dot{q}(0) = 0$ for small oscillations.
 
-## Fig 8 - Adaptive Control
-
-$k_\omega = 0.05$ and $k_A = 0.5$
-
-$\delta_\omega = 0.078$ and $\delta_A = 0.02$.
-
-The saturation functions are
-
-$\sigma_\omega(x) = 1.4 + 2.5/(1+\exp(-1.5(x-5.25)))$
-
-$\sigma_A(x) = 0.9 + 1.5/(1+\exp(-(x-3.25)))$
-
-## Fig 11 - Phase Control
+## Fig 9 - Phase Control
 
  $g_s^- = 1.05$ and $g_{us}^+ = 1.75$
 
+## Fig 10 - Adaptive Control
+
+Recall that the corrections $p_\omega$ and $p_A$ are proportional to the prediction errors. Note that the constant of proportionality was chosen differently for each simulation (that is, for each value of $A_\rm{ref}$).
